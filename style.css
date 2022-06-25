@@ -1,0 +1,45 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.root{
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+}
+
+#nav a{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 20px;
+
+
+
+} 
+
+
+
+#nav a:hover{
+    background-color:grey;
+
+}
+
+button{
+    border: none;
+    border-radius: 12px;
+    background: whitesmoke;
+    
+}
+     
+
+.card{
+    background: #da1e5d;
+    height: 100px;
+    width: 1000px;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+

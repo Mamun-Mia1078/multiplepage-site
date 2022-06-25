@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#nav a{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 12px;
+background: whitesmoke;
+color: rgb(228, 212, 212);
+font-size: 20px;
+border-style: none;
+
+
+
+} 
+
+
+
+#nav a:hover{
+    background-color: #606060 ;
+
+ 
+
+}
+.slider{
+    width: 800px;
+    height: 400px;
+    background: url(img/define.jpg);
+    animation: slide 15s infinite;
+    margin: 10px auto ;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.title{
+float: right;
+    background: rgb(244, 239, 239);
+padding: 50px;
+margin-right: -200px ;
+
+}
+@keyframes slide{
+    20%{
+        
+        background: url(img/define.jpg);
+        
+    }
+
+    40%{
+        background: url(img/plan.jpg);
+    }
+    60%{
+        background: url(img/design.jpg);
+    }
+    80%{
+        background: url(img/implement.jpg);
+    }
+    100%{
+        background: url(img/test.jpg);
+    }
+    100%{
+        background: url(img/maintain.jpg);
+    }
+
+}
