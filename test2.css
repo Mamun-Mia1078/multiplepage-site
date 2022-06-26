@@ -16,7 +16,6 @@ font-size: 20px;
 border-style: none;
 
 
-
 } 
 
 
@@ -31,7 +30,7 @@ border-style: none;
     width: 800px;
     height: 400px;
     background: url(img/define.jpg);
-    animation: slide 15s infinite;
+    animation: slide 18s infinite;
     margin: 10px auto ;
 
 }
@@ -39,13 +38,8 @@ h1{
     text-align: center;
     margin-bottom: 10px;
 }
-.title{
-float: right;
-    background: rgb(244, 239, 239);
-padding: 50px;
-margin-right: -200px ;
+ 
 
-}
 @keyframes slide{
     20%{
         
@@ -65,8 +59,56 @@ margin-right: -200px ;
     100%{
         background: url(img/test.jpg);
     }
-    100%{
+    120%{
         background: url(img/maintain.jpg);
     }
 
 }
+
+
+.text{
+    float: right;
+        background: rgb(244, 239, 239);
+    padding: 50px;
+    margin-right: -250px ;
+    padding:  0 40px;
+    background: green;
+    overflow: hidden;
+    height: 40px;
+    } 
+    
+
+    .line{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: x-large;
+        line-height: 60 px;
+    }
+
+    .line:first-child{
+        animation: anim 15s infinite;
+    }
+    @keyframes anim{
+        20%{
+            
+            margin-top: 0;
+            
+        }
+    
+        40%{
+            margin-top: -30px;
+        }
+        60%{
+                margin-top: -40px;        }
+        80%{
+            margin-top: -60px ;
+        }
+        90%{
+                margin-top: -80px;
+        }
+        100%{
+          margin-top: -100px;
+        }
+    
+    }
+    
